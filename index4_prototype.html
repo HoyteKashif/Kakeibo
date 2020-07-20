@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html><head>
         <title>Kakeibo Budget Planner</title>
         <meta charset="utf-8">
         <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,500&amp;display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -803,22 +802,22 @@
                             </div>
                         </div>
                     </div>
-                </table>
+
             </div>
                 <div id="logo-container">
                     <div class="first-layer">
                         <div class="second-layer">
                            <!-- <div class="grid-layer"> -->
-                                    <div class="row-one"><p>&#165;</p></div>
-                                    <div class="row-two"><p>&#163;</p></div>
+                                    <div class="row-one"><p>¥</p></div>
+                                    <div class="row-two"><p>£</p></div>
                                     <div id="logo-box"></div>
-                                    <div class="row-two"><p>&#8364;</p></div>
-                                     <div class="row-three"><p>&#36;</p></div>
+                                    <div class="row-two"><p>€</p></div>
+                                     <div class="row-three"><p>$</p></div>
                             <!--</div>-->
                         </div>
                     </div>
                 </div>
-        </header>
+        </div></header>
         <section class="main">
             <div class="form-container">
                 <form>
@@ -833,79 +832,151 @@
                             </div>
                             <div>
                                 <div class="section-container">
-                                    <p>HOW MUCH MONEY DO YOU HAVE TO SPEND THIS MONTH?</p>
-                                    <div class="grid-container-spend1">
-                                        <label for="income">INCOME:</label>
-                                        <label for="expenses">EXPENSES:</label>
-                                        <label for="save-goal">SAVINGS GOAL:</label>
-                                        <label for="spend-money">SPENDING MONEY THIS MONTH:</label>
-                                        <input class="operator-field" type="number" id="income" name="income">
-                                        <div class="operator-field">
-                                            <div class="green-box">
-                                                <div class="subtract"></div>
-                                            </div>
-                                            <input type="number" id="expenses" name="expenses">
-                                        </div>
-                                        <div class="operator-field">
-                                            <div class="green-box">
-                                                <div class="subtract"></div>
-                                            </div>
-                                            <input type="number" id="save-goal" name="save-goal">
-                                        </div>
-                                        <div class="operator-field">
-                                            <div class="green-box">
-                                                <div class="equals"></div>
-                                                <div class="equals"></div>
-                                            </div>
-                                            <input type="number" id="spend-money" name="spend-money">
-                                        </div>
+                                    <p>WEEK 1</p>
+                                    <div style="padding: 15px; background-color: #E0ECF1">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
                                     </div>
                                 </div>
-                                <div class="section-container2">
-                                    <p>HOW MUCH SPENDING MONEY DO YOU HAVE PER WEEK?</p>
-                                    <div class="grid-container-spend2">
-                                        <label for="spend-money2">SPENDING MONEY THIS MONTH:</label>
-                                        <label for="weeks">NUMBER OF WEEKS:</label>
-                                        <label for="spend-week">SPENDING MONEY PER WEEK:</label>
-                                        <input class="operator-field" type="number" id="spend-money2" name="spend-money2">
-                                        <div class="operator-field">
-                                            <div class="green-box">
-                                                <div class="division-circle"></div>
-                                                <div class="division-line"></div>
-                                                <div class="division-circle"></div>
-                                            </div>
-                                            <input type="number" id="weeks" name="weeks" value=4>
-                                        </div>
-                                        <div class="operator-field">
-                                            <div class="green-box">
-                                                <div class="equals"></div>
-                                                <div class="equals"></div>
-                                            </div>
-                                            <input type="number" id="spend-week" name="spend-week">
-                                        </div>
+                                <div class="section-container">
+                                    <p>WEEK 2</p>
+                                    <div style="padding: 15px; background-color: #E0ECF1">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
                                     </div>
+                                </div>
+                                <div class="section-container">
+                                    <p>WEEK 3</p>
+                                    <div style="padding: 15px; background-color: #E0ECF1">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="section-container">
+                                    <p>WEEK 4</p>
+                                    <div style="padding: 15px; background-color: #E0ECF1">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="section-container">
+                                    <p>WEEK 5</p>
+                                    <div style="padding: 15px; background-color: #E0ECF1">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="section-container">
+                                    <p>SUB TOTALS:</p>
+                                    <div style="padding: 15px; background-color: #F4E1DD">
+                                      <div style="display: inline-block; width:25%">
+                                        <label for="needs">NEEDS:</label><br>
+                                        <input type="text" name="needs">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="wants">WANTS:</label><br>
+                                        <input type="text" name="wants">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="culture">CULTURE:</label><br>
+                                        <input type="text" name="culture">
+                                      </div><div style="display: inline-block; width: 25%">
+                                        <label for="unplanned">UNPLANNED:</label><br>
+                                        <input type="text" name="unplanned">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="field-total total-section" style="width: 100%">
+                                  <div style="float: right; width: 50%">
+                                    <div style="box-sizing: content-box;">
+                                      <label for="total2">TOTAL SPENDING:</label><br>
+                                      <input name="total2" type="number" id="total2" style="width: 100%; padding-left: 0px;">
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
                         <div class="spending-goals form-section">
-                            <h3><span>SPENDING GOALS</span></h3>
-                            <div>
-                                <div>
-                                    <label for="month-goal">WHAT ARE YOUR GOALS FOR THE MONTH?</label><br>
-                                    <textarea name="month-goal" id="month-goal" rows="10" cols="80"></textarea>
-                                </div>
-                                <div>
+                            <h3><span>HOW DID YOU DO THIS MONTH?</span></h3>
+
+
+
+
+                                      <div style="display: inline-block;">SPENDING MONEY THIS MONTH:<br>
+                                      <input type="number" id="expenses" name="expenses" style="background-color: #E0ECF1;"></div><div style="display: inline-block;">TOTAL SPENT THIS MONTH:<br>
+<input type="number" id="save-goal" name="save-goal" style="background-color: #E0ECF1;">
+</div><div style="display: inline-block;">
+MONEY SAVED:
+
+
+                                      <div class="green-box" style="display: inline-block;">
+                                              <div class="equals"></div>
+                                              <div class="equals"></div>
+                                          </div><input type="number" id="spend-money" name="spend-money" style="background-color: #E0ECF1;"><div class="operator-field">
+
+
+                                      </div></div><div style="box-sizing: content-box;margin-top: 10px;">
                                     <label for="goal-plan">HOW WILL YOU ACHIEVE THEM?</label><br>
-                                    <textarea name="goal-plan" id="goal-plan" rows="10" cols="80"></textarea>
+                                    <textarea name="goal-plan" id="goal-plan" rows="10" cols="80" style="margin: 0px; height: 134px; width: 602px;"></textarea>
                                 </div>
-                                <div class="submit-container">
-                                    <input id="submit-button" type="submit" value="SUBMIT">
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
-            </form>
-        </div>
+                </form></div>
+
+
         </section>
-    </body>
+
+</body></html>
